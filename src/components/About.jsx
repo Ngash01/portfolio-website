@@ -9,11 +9,11 @@ import Deluge from "../assets/Deluge.png"
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300 -mt-10'>
+    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+            <p className='text-2xl font-bold inline border-b-4 border-pink-600'>
               About
             </p>
           </div>
@@ -32,37 +32,37 @@ const About = () => {
             </div>
           </div>
           <div className='mt-3'>
-              <h3 className='text-red-600 text-3xl text-center font-semibold mb-3 p-3'>Tech Stack</h3>
-              <ul className='mt-2 flex space-x-20 mb-8 font-semibold text-lg'>
+              <h3 className='text-red-600 text-2xl text-center font-semibold mb-3 p-3'>Tech Stack</h3>
+              <ul className='mt-2 flex space-x-20 mb-8 font-semibold text-sm'>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={ReactImg} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={ReactImg} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>ReactJs </li>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={NodeJs} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={NodeJs} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>Nodejs</li>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={Mysql} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={Mysql} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>SQL</li>
                 </div>
               </ul>
                 <ul className='mt-2 flex space-x-3 font-semibold text-lg'>
 
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={Java} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={Java} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>Java</li>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={SpringBoot} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={SpringBoot} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>Spring boot</li>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={Github} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={Github} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>Git/Github</li>
                 </div>
                 <div className='flex flex-col justify-center items-center space-y-2 cursor-pointer'>
-                  <img src={Deluge} className=' h-24 w-24 object-cover' alt="" />
+                  <img src={Deluge} className=' h-11 w-11 object-cover' alt="" />
                   <li className=' cursor-pointer hover:underline'>Zoho Deluge</li>
                 </div>
               </ul>
